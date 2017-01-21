@@ -1,7 +1,8 @@
 .tmux
 =====
+**Friendly with EMACS keybinding and iTerm2**
 
-Self-contained, pretty and versatile `.tmux.conf` configuration file.
+Self-contained, pretty and versatile `.tmux.conf` configuration file. 
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
 
@@ -18,7 +19,7 @@ existing `~/.tmux.conf` first)
 
 ```
 $ cd
-$ git clone https://github.com/gpakosz/.tmux.git
+$ git clone https://github.com/jaimeagudo/.tmux.git
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
 ```
@@ -31,7 +32,7 @@ enable and further customize the vi-style key bindings (see tmux manual).
 Features
 --------
 
- - `C-a` acts as secondary prefix, while keeping default `C-b` prefix
+ - `C-t` is the unique prefix
  - visual theme inspired by [Powerline][]
  - [maximize any pane to a new window with `<prefix> +`][maximize-pane]
  - SSH aware username and hostname status line information
