@@ -36,7 +36,7 @@ tmux_conf_new_session_prompt=false
 
 
 # -- display -------------------------------------------------------------------
-source /usr.share/powerline/bindings/tmux/powerline.conf
+# source /usr.share/powerline/bindings/tmux/powerline.conf
 
 # RGB 24-bit colour support (since tmux 2.2), possible values are:
 #  - true
